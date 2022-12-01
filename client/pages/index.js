@@ -37,7 +37,7 @@ export default function Home() {
       console.log('connected to chain:', chainId)
 
 
-      const rinkebyChainId = '0x4'
+      const rinkebyChainId = '0x5'
       if(chainId != rinkebyChainId) {
         alert('you are not connected to rinkeby testnet!')
         setCorrectNetwork(false)
